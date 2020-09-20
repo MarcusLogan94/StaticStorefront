@@ -1,0 +1,226 @@
+body {
+	font-size: 67.5%;
+	font-family: Arial;
+	background: white url(../img/cuttingboard.jpg) no-repeat fixed  top center;
+	padding: 0;
+	margin: 0;
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+h1 {
+	color: #7d2dff;
+	font-size: 2.0em;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0;
+}
+h2 {
+	color: #492f74;
+	font-size: 1.7em;
+	padding: 0px;
+	margin: 0.5em 0 0.35em 0;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #555;
+	padding: 0px;
+	margin: 0px 0.5em 0.75em 0px;
+}
+a, a:visited {
+	color: #9722c6;
+}
+a:hover {
+	color: rgb(221, 132, 248);
+}
+
+.contentWrapper {
+	margin: auto;
+	max-width: 1400px;
+	padding: 0;
+}
+
+div.clear { 
+	clear:both;
+	font-size: 1%;
+}
+
+header {
+	padding: 2.5em 0 0.5em;
+	margin: 0 0 2.0em;
+	background: #39150C url(../img/herbs.jpg) center 0px;
+ }
+
+header h1 {
+	font-family: Arial;
+	color: #745b2f;
+	font-size: 7.5em;
+	letter-spacing: -0.025em;
+	margin: 0;	
+}
+header h2 {
+	font-weight: 300;
+	font-size: 3.8em;
+	color: #5b22c6;
+	margin: -0.4em 0 0 1.0em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.navbar{
+	font-family: Arial;
+	font-size: 24px;
+	background-color: rgba(252,251,243,0.7);
+	text-align: center;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 50px 0 190px;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  .navbar ul li {
+	float: left;
+	padding: 1em 20px 0 20px;
+  }
+  
+  .navbar ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	padding: 0 20px 0 20px;
+	text-decoration: none;
+  }
+  .navbar ul li a:hover {
+	background-color: purple;
+  }
+
+section.whiteBoard {
+	background-color: rgba(252,251,243,0.7);
+	margin: auto;
+	padding: 1.5em  0 2.0em 1.5em;
+	display: inline-block;
+	border-radius: 2em;
+	
+	box-shadow: 1px 1px 5px #777;
+}
+
+section div.bigpanel{
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+	padding: 2.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+	text-align: center;
+}
+section div.panel{
+	float: left;
+	position: relative;
+	width: 300px;
+	margin: 0 2em 1em 1em;
+	padding: 1.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+}
+section div.smallpanel{
+	float: left;
+	position: relative;
+	width: 175px;
+	margin: 1em 0 1em 1em;
+	padding: 1.0em;
+	background-color: #fff;
+	border: #ccc solid 1px;
+	border-radius: 0.6em;
+	object-fit: cover;
+}
+
+section div.bigpanel img.category {
+	width: 100%;
+}
+section div.panel img.category {
+	width: 100%;
+}
+section div.smallpanel img.category {
+	object-fit: cover;
+	width: 100%;
+}
+
+
+.information{
+	opacity: 0;
+	font-size: 50px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.information:hover{
+	opacity: 1;
+}
+
+section#sidebar {
+	width: 38px;
+	float: LEFT;
+	position: relative;
+	display: block;
+	background-color: #fff;
+	margin: 1.5em 0 3.0em 1.5em;
+	padding: 1.7em 0.5em 2.0em 1.7em;
+	border-left: #772ba9 solid 5px;
+}
+
+footer {
+	background-color: #3d228a;
+	height: 25px;
+	font-size: 1.2em;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 0.6em;
+	padding: 0;
+}
+footer ul li {
+	display: inline-block;
+	padding: 0 0.7em 0 0;
+	margin: 0;
+}
+footer ul li::before {
+	content: "| ";
+	padding-right: 0.7em;
+}
+footer a, footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+button {
+	color: #b322c6;
+	background-color: #FFF;
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	padding: 0.2em 0.5em;
+	border: 1px solid #b322c6;
+	text-transform: uppercase;
+}
+button:hover {
+	background-color: #FBF3DB;
+	border: 1px solid #745b2f;
+}
